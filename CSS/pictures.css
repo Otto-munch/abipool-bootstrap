@@ -1,0 +1,35 @@
+/* Styles for pictures auf faecher.html */
+
+.sp {
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.np {
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.gp {
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+    .sp {
+      max-width: 100%;
+       min-height: 100px;
+      max-height: 100px;
+      }
+    
+        
+
+}
