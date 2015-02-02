@@ -167,6 +167,9 @@ nav ul li a {
 #con3 {
     background-color: linear-gradient(#87D37C, #36D7B7);
 }
+#consky {
+    background: linear-gradient(#fff, #19B5FE);
+}
 
 /* Color Divs Ende */
 
@@ -192,6 +195,9 @@ ul.unstyled {
 
 
 @media (max-width: 480px) {
+    .circlecon {
+    height: 450px;
+}
 }
 
 
@@ -273,9 +279,12 @@ ul.unstyled {
     #slide4 {
         background: url('../images/universe-desktop.jpg') top left no-repeat; 
     }
+    .circlecon {
+    height: 400px;
+    }
 }
 
-/* Buttons */
+/* =========== BUTTONS =========== */ 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 .btn{
@@ -389,6 +398,10 @@ margin-top: 2px;
  }  
 .oswald {
     font-family: 'Oswald', sans-serif;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
 }
 
 /* ========== TIMELINE =========== */
@@ -551,3 +564,18 @@ margin-top: 2px;
 }
 
 /* http://bootsnipp.com/snippets/featured/alert-messages-like-the-docs */
+
+.circlenum {
+    position: center;
+    display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 10px solid #2ABB9B;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+#centered {
+    margin-left: 35%;
+}

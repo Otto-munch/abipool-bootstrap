@@ -6,7 +6,7 @@
     <meta name="description" content="Alles was du zum Lernen brauchst, Kostenlos! Interaktive Lerninhalte, Links,         Videos, etc. Tauch ein in abipool!">
     <meta name="author" content="Austin Otto Lang">
     <link rel="shortcut icon" href="assets/ico/favicon.png"> <!-- FAVICON -->
-        <title>Abipool - Teil dein Wissen!</title>
+        <title>Upload - Abipool</title>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
@@ -51,42 +51,49 @@
                 </div>
             </div>
         </nav>
+<!-- =========== THUMBNAILS  ========== -->   
+<div id="consky">
 <br><br><br><br>
-<!-- =========== THUMBNAILS  ========== -->     
 <div class="container">
-    <div class="row">
+<div class="row">
         <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="..." alt="...">
+            <div class="thumbnail circlecon">
+               <div id="centered"><div class="circlenum oswald"><h1>1</h1></div></div>
                 <div class="caption">
-                    <h3>Lerninhalte</h3>
-                    <p>Lerninhalt auswählen</p>
+                    <h3 class="centered">Was will ich hochladen?</h3>
+                    <p>Überlege dir gut welche Lerninhalte du hochladen möchtest.<br>
+                    Sind diese inhaltlich richtig?<br> Wenn du das geklärt hast, kannst du direkt das Formular ausfüllen. Bitte <span class="text-danger">Videos</span> nicht hier, sondern nur auf vimeo oder youtube hochladen und uns den Link schicken. Dein Video wird dann hier eingebettet.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="..." alt="...">
+            <div class="thumbnail circlecon">
+                <div id="centered"><div class="circlenum oswald"><h1>2</h1></div></div>
                 <div class="caption">
-                    <h3>Lerninhalte</h3>
-                    <p>Lerninhalt auswählen</p>
+                    <h3 class="">Ausfüllen</h3>
+                    <p>Um einen Lerninhalt hochzuladen fülle bitte das erste Formular unten aus. Für einen Linktipp, nimm das zweite Formular darunter.</p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="..." alt="...">
+            <div class="thumbnail circlecon">
+                <div id="centered"><div class="circlenum oswald"><h1>3</h1></div></div>
                 <div class="caption">
-                    <h3>Lerninhalte</h3>
-                    <p>Lerninhalt auswählen</p>
+                    <h3>Feedback</h3>
+                    <p>Sobald wir von dir den Lerninhalt erhalten haben, kontaktieren wir dich. Die Community kann nach der Veröffentlichung deine Lerninhalte bewerten und kommentieren. So bekommst du ein Feedback. Wenn was fehlt, kann jeder darauf hinweisen. Falls der Lerninhalt bearbeitet werden sollte, informieren wir dich. <br><i>Let's make learning social!</i></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+</div>
 <!-- =========== UPLOAD-FORMULAR  ========== --> 
+<div class="container">
     <form class="form-horizontal">
-      <div class="form-group">
-          <label for="Name" class="col-sm-2 control-label">Name</label>
+    <h3 class="centered lobster"><big>Upload</big></h3><br>
+      <div class="form-group has-success">
+          <label for="Name" class="col-sm-2 control-label">Name*</label>
             <div class="col-xs-11 col-sm-4">
                 <input type="text" class="form-control" placeholder="Barack Obama">
             </div>
@@ -97,33 +104,73 @@
                 <input type="text" class="form-control" placeholder="Batman">
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <div class="form-group has-success">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email*</label>
             <div class="col-xs-11 col-sm-6">
                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
         </div>
-            <label for="Pseudonym" class="col-sm-2 control-label">Text</label>
+        <div class="form-group has-success">
+        <label for="Fach" class="col-sm-2 control-label">Fach*</label>
+            <div class="col-xs-11 col-sm-6">
+            <select class="form-control">
+              <option>Biologie</option>
+              <option>Chemie</option>
+              <option>Deutsch</option>
+              <option>Englisch</option>
+              <option>Erdkunde</option>
+              <option>Ethik</option>
+              <option>Französisch</option>
+              <option>Geschichte</option>
+              <option>Informatik</option>
+              <option>Kunst</option>
+              <option>Mathematik</option>
+              <option>Musik</option>
+              <option>Physik</option>
+              <option>Politik & Wirtschaft</option>
+              <option>Religion</option>
+              <option>Sport</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group has-success">
+        <label for="Art" class="col-sm-2 control-label">Fach*</label>
+            <div class="col-xs-11 col-sm-6">
+            <select class="form-control">
+              <option>Textdokument</option>
+              <option>Infografik</option>
+              <option>Powerpoint</option>
+              <option>Audio</option>
+              <option>Anderes</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group has-success">
+            <label for="exampleInputFile" class="col-sm-2 control-label">Dein Lerninhalt*</label>
+         <div class="col-xs-11 col-sm-6">
+            <input type="file" id="exampleInputFile">
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="Message" class="col-sm-2 control-label">Text</label>
         <div class="col-xs-11 col-sm-8">
             <textarea class="form-control" rows="3" placeholder="Willst du uns noch was mitteilen?"></textarea>
         </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-12">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
-          </div>
         </div>
-      </div>
+        <div class="form-group">
+            <label for="AGB" class="col-xs-12 col-sm-8 col-md-6 control-label">
+                <input type="checkbox"> Ich habe die <a href="../Content/AGB_Abipool.pdf" target="_blank">AGB</a> gelesen und aktzeptiere sie*.
+            </label>
+        </div>
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Sign in</button>
+          <button type="submit" class="btn btn-default">Upload</button>
         </div>
       </div>
+        <br>
+        <p>* Felder müssen ausgefüllt werden</p>
 </form>
-    
+    <hr>
 </div><!-- Container Ende-->
         <!-- =========== FOOTER  ========== --> 
         <footer>
