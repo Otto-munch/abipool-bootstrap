@@ -195,9 +195,6 @@ ul.unstyled {
 
 
 @media (max-width: 480px) {
-    .circlecon {
-    height: 450px;
-}
 }
 
 
@@ -280,7 +277,7 @@ ul.unstyled {
         background: url('../images/universe-desktop.jpg') top left no-repeat; 
     }
     .circlecon {
-    height: 400px;
+    height: 350px;
     }
 }
 
